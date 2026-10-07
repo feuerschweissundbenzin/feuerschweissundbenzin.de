@@ -1,7 +1,1 @@
-THIS IS MY WEBSITE
-ITS A HTML/CSS PLAYGROUND TO REPLACE MY SOCIAL MEDIA
-*
-*
-*
-*
-FEUERSCHWEINUNDBENZIN
+This is a mini-website project to replace my social media :)
