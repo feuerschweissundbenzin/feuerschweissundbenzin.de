@@ -9,6 +9,8 @@
         color: white;
         font-family: 'Courier New', monospace;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     div {
@@ -92,11 +94,21 @@
         <nav>
             <a href="index.html"><b>home</b></a>
             <a href="photos.html">photography</a>
+            <div class="item" style="border: 0px solid darkblue;"><u>games</u>
+                <div class="popup" style="border: 2px solid darkblue;">
+                    <ul>
+                        <li><a href="pacman.html">pac-man</a></li>
+                        <li><a href="dinogame.html">dino</a></li>
+                        <li><a href="snake.html">snake</a></li>
+                        <li><a href="tetris.html">tetris</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="item" style="border: 0px solid darkblue;"><u>language</u>
                 <div class="popup" style="border: 2px solid darkblue;">
                     <ul>
-                        <li><a href="languages/index_deutsch.html">deutsch</a></li>
-                        <li><a href="languages/index_espanol.html">espanol</a></li>
+                        <li><a href="index_de.html">deutsch</a></li>
+                        <li><a href="index_es.html">espanol</a></li>
                     </ul>
                 </div>
             </div>
@@ -107,24 +119,34 @@
     <div>
         <h2><b>...this is my personal HTML/CSS playground!</b></h2>
         <p style="padding-bottom: 15px;">this is a list of my favourite things:</p>
-        <p>my girlfriend</p>
-        <img src="photos/girlfriend.png" style="padding-bottom: 15px;">
         <p>my friends and family</p>
-        <img src="photos/friends.png" style="padding-bottom: 15px;">
+        <img src="images/friends.png" style="padding-bottom: 15px;">
+        <p>my girlfriend</p>
+        <img src="images/girlfriend.png" style="padding-bottom: 15px;">
         <p>bouldering</p>
-        <img src="photos/bouldering.png" style="padding-bottom: 15px;">
-        <p>forests, rivers and the mountains</p>
-        <img src="photos/nature.png" style="padding-bottom: 15px;">
+        <img src="images/bouldering.png" style="padding-bottom: 15px;">
         <p>geography</p>
-        <img src="photos/globe.png" style="padding-bottom: 15px;">
+        <img src="images/globe.png" style="padding-bottom: 15px;">
+        <p>forests, rivers and the mountains</p>
+        <img src="images/nature.png" style="padding-bottom: 15px;">
         <p>music</p>
-        <img src="photos/music.png" style="padding-bottom: 15px;">
-        <div style="border: 4px solid darkblue; width: 120px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
-            <div class="item" style="border: 0px solid darkblue;"><u>random box</u>
-                <div class="popup" style="width: 650px; border: none; background: none; top: -1000%;">
-                    <video src="videos/explosion.mp4" controls autoplay loop muted
-                        style="padding-bottom: 50px;"></video>
+        <img src="images/music.png" style="padding-bottom: 15px;">
+        <p>photography</p>
+        <img src="images/camera.png" style="padding-bottom: 15px;">
+        <div style="display: flex; border: none;">
+            <div
+                style="border: 4px solid darkblue; width: 120px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+                <div class="item" style="border: 0px solid darkblue;"><u>random box</u>
+                    <div class="popup" style="width: 650px; border: none; background: none; top: -1000%;">
+                        <video src="videos/explosion.mp4" controls autoplay muted loop
+                            style="padding-bottom: 50px;"></video>
+                    </div>
                 </div>
+            </div>
+            <div
+                style="border: 4px solid darkblue; width: 120px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+                <div class="item" style="border: 0px solid darkblue;"><a href="videos/rickroll.mp4"
+                        target="_blank">lol</a></div>
             </div>
         </div>
     </div>

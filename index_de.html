@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<title>feuerschweissundbenzin</title>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', monospace;
+        text-align: center;
+    }
+
+    div {
+        border: 8px solid darkblue;
+    }
+
+    header {
+        background-color: darkblue;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        background-color: darkblue;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    nav {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .item {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .popup {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: black;
+        padding: 10px;
+        width: 140px;
+        z-index: 10;
+    }
+
+    .item:hover .popup {
+        display: block;
+    }
+
+    img {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    video {
+        width: 600px;
+    }
+
+
+    ul {
+        text-align: left;
+    }
+
+    a {
+        color: white;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>feuerschweissundbenzin</h1>
+    </header>
+    <div>
+        <nav>
+            <a href="index_de.html"><b>home</b></a>
+            <a href="photos_de.html">fotografie</a>
+            <div class="item" style="border: 0px solid darkblue;"><u>games</u>
+                <div class="popup" style="border: 2px solid darkblue;">
+                    <ul>
+                        <li><a href="pacman.html">pac-man</a></li>
+                        <li><a href="dinogame.html">dino</a></li>
+                        <li><a href="snake.html">snake</a></li>
+                        <li><a href="tetris.html">tetris</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item" style="border: 0px solid darkblue;"><u>sprache</u>
+                <div class="popup" style="border: 2px solid darkblue;">
+                    <ul>
+                        <li><a href="index.html">english</a></li>
+                        <li><a href="index_es.html">espanol</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="contact_de.html">kontakt</a>
+        </nav>
+    </div>
+
+    <div>
+        <h2><b>...das ist mein persoenlicher HTML/CSS Spielplatz!</b></h2>
+        <p style="padding-bottom: 15px;">das ist eine liste meiner lieblingsdinge:</p>
+        <p>meine freunde und familie</p>
+        <img src="images/friends.png" style="padding-bottom: 15px;">
+        <p>meine freundin</p>
+        <img src="images/girlfriend.png" style="padding-bottom: 15px;">
+        <p>bouldern</p>
+        <img src="images/bouldering.png" style="padding-bottom: 15px;">
+        <p>geographie</p>
+        <img src="images/globe.png" style="padding-bottom: 15px;">
+        <p>waelder, fluesse und die berge</p>
+        <img src="images/nature.png" style="padding-bottom: 15px;">
+        <p>musik</p>
+        <img src="images/music.png" style="padding-bottom: 15px;">
+        <p>fotografie</p>
+        <img src="images/camera.png" style="padding-bottom: 15px;">
+        <div style="display: flex; border: none;">
+            <div
+                style="border: 4px solid darkblue; width: 120px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+                <div class="item" style="border: 0px solid darkblue;"><u>random box</u>
+                    <div class="popup" style="width: 650px; border: none; background: none; top: -1000%;">
+                        <video src="videos/explosion.mp4" controls autoplay muted loop
+                            style="padding-bottom: 50px;"></video>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="border: 4px solid darkblue; width: 120px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+                <div class="item" style="border: 0px solid darkblue;"><a href="videos/rickroll.mp4"
+                        target="_blank">lol</a></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            folge mir auf <b><a href="https://www.instagram.com/feuerschweissundbenzin/" target="_blank">
+                    instagram</a></b> fuer mehr...
+        </p>
+    </footer>
+
+</body>
+
+</html>
